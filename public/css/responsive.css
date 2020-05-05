@@ -1,0 +1,558 @@
+/*
+ ##Device = Desktops
+ ##Screen = 1281px to higher resolution desktops
+ */
+@media (min-width: 1440px) and (max-width: 1680px) {
+  /* works -----*/
+  .element-item {
+    width: 25%;
+    height: 270px;
+    padding: 0 2px;
+  }
+
+   /* CV Download --- */
+   .cv-large-4 {
+    width: 33.3333333333%;
+    float: left;
+  }
+}
+@media (max-width: 1281px) {
+  /* works -----*/
+  .element-item {
+    width: 33.3333333%;
+    height: 270px;
+  }
+
+   /* CV Download --- */
+   .cv-large-4 {
+    width: 33.3333333333%;
+    float: left;
+  }
+}
+/*
+ ##Device = Laptops, Desktops
+ ##Screen = B/w 1025px to 1280px
+ */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* typing text animation -----*/
+  .text-container .text h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 10px;
+  }
+  h2.typing-text {
+    text-transform: uppercase;
+    font-size: 72px;
+    font-weight: 500;
+    letter-spacing: 10px;
+  }
+  /* works -----*/
+  .element-item {
+    width: 33.3333333%;
+    height: 270px;
+  }
+   /* CV Download --- */
+   .cv-large-4 {
+    width: 33.3333333333%;
+    float: left;
+  }
+}
+/*
+ ##Device = Tablets, Ipads (portrait)
+ ##Screen = B/w 768px to 1024px
+ */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* header -----*/
+  .page .header {
+    background: #161515;
+    z-index: 11;
+    padding: 15px;
+  }
+  /* typing text animation -----*/
+  .text-container .text h3 {
+    text-transform: uppercase;
+    font-size: 18px !important;
+    letter-spacing: 10px;
+  }
+  h2.typing-text {
+    text-transform: uppercase;
+    font-size: 60px !important;
+    font-weight: 500;
+    letter-spacing: 10px;
+  }
+  /* menu / nav -----*/
+  .menu-open {
+    right: 15px !important;
+    top: 30px !important;
+  }
+  /* works -----*/
+  .element-item {
+    width: 50%;
+    height: 270px;
+  }
+   /* CV Download --- */
+   .cv-large-4 {
+    width: 33.3333333333%;
+    float: left;
+  }
+}
+/*
+ ##Device = Tablets, Ipads (landscape)
+ ##Screen = B/w 768px to 1024px
+ */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* menu / nav -----*/
+  .menu-area ul li a {
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 25px;
+    text-shadow: 2px 5px 10px rgba(16, 16, 17, 0.3);
+    position: relative;
+    direction: rtl;
+    display: inline-block;
+    text-indent: -25px;
+  }
+  /* works -----*/
+  .element-item {
+    width: 50%;
+    height: 270px;
+  }
+
+  /* cv download ---- */
+  .cv-large-4 {
+    width: 33.3333333333%;
+    float: left;
+}
+}
+@media (max-width: 767px) {
+  /* header and footer -----*/
+  .header, .footer {
+    padding: 30px !important;
+    padding-bottom: 60px !important;
+  }
+  .page .header {
+    background: #161515;
+    z-index: 11;
+    padding: 15px !important;
+  }
+  /* logo -----*/
+  .logo .name {
+    font-size: 16px;
+  }
+  .logo .tagline {
+    font-size: 12px;
+    margin: 0;
+  }
+  /* link and button -----*/
+  .button {
+    width: auto;
+    display: inline-block;
+  }
+  .right-side .button {
+    float: right;
+    margin-bottom: 30px;
+  }
+  .link {
+    margin-top: 15px;
+  }
+  .link a {
+    font-size: 16px;
+    font-weight: 300
+  }
+  .hire-me {
+    bottom: 0;
+  }
+  /* menu / nav -----*/
+  .menu {
+    width: 24px;
+    height: 24px;
+    top: 40px;
+  }
+  .menu-open {
+    right: 15px !important;
+    top: 30px !important;
+  }
+  /* typing text animation -----*/
+  .text-container .text h3 {
+    text-transform: uppercase;
+    font-size: 18px !important;
+  }
+  h2.typing-text {
+    text-transform: uppercase;
+    font-size: 48px !important;
+    font-weight: 500 !important;
+  }
+  /* content setup -----*/
+  .main-content p {
+    font-size: 14px;
+  }
+  .content h2.title {
+    font-size: 36px;
+  }
+  .content .link {
+    margin-top: 15px;
+    float: right;
+  }
+  .content {
+    padding-top: 100px;
+  }
+  .main-content {
+    padding: 50px 0;
+  }
+  .main-content h4 {
+    color: #ffece6;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  .main-content .content-row:first-child {
+    margin-bottom: 30px;
+  }
+  /* experience -----*/
+  .experience-carousel .slick-list {
+    overflow: visible;
+    left: -6%;
+    padding: 0px !important;
+    padding-left: 30px !important;
+  }
+  .experience-carousel {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .experience-carousel .slick-dots {
+    bottom: -42px;
+  }
+  .experience-carousel-item-inner .year {
+    font-size: 24px;
+  }
+  /* hobbies -----*/
+  .hobbies li {
+    padding: 30px;
+    width: 50%;
+    border-bottom: 1px solid #101011;
+    min-height: 150px;
+  }
+  .hobbies li span.icon {
+    width: 32px;
+    height: 32px;
+  }
+  .hobbies li span.title {
+    padding: 0;
+    font-size: 12px;
+  }
+  /* software -----*/
+  .software li {
+    padding: 30px;
+    width: 50%;
+    border-bottom: 1px solid #101011;
+    min-height: 150px;
+  }
+  .software li span.icon {
+    width: 32px;
+    height: 32px;
+  }
+  .software li span.title {
+    padding: 0;
+    font-size: 12px;
+  }
+
+  /* CV Download --- */
+  .cv-large-4 {
+    width: 33.3333333333%;
+    float: left;
+  }
+  /* works -----*/
+  .element-item {
+    width: 50%;
+    height: 270px;
+  }
+  /* socials -----*/
+  .social-profile ul {
+    bottom: 0;
+    right: 0;
+    margin-top: -54px;
+  }
+}
+/*
+ ##Device = Low Resolution Tablets, Mobiles (Landscape)
+ ##Screen = B/w 481px to 767px
+ */
+@media (min-width: 481px) and (max-width: 767px) {
+  /* hobbies -----*/
+  .hobbies li {
+    float: left;
+    width: 50% !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* software -----*/
+  .software li {
+    float: left;
+    width: 50% !important;
+  }
+}
+/*
+ 
+ ##Device = Most of the Smartphones Mobiles (Portrait)
+ ##Screen = B/w 320px to 639px
+ */
+@media (min-width: 320px) and (max-width: 639px) {
+  /* header -----*/
+  .page .header {
+    background: #161515 !important;
+  }
+  .header {
+    z-index: 999;
+    padding: 30px !important;
+  }
+  /* link and button -----*/
+  .link {
+    margin-top: 30px !important;
+  }
+  .link a {
+    font-size: 14px;
+    font-weight: 300
+  }
+  .link-2.prev {
+    left: 30px;
+    position: absolute;
+  }
+  .link-2.next {
+    right: 30px;
+    position: absolute;
+  }
+  /* menu / nav -----*/
+  .menu-area {
+    max-height: 80%;
+  }
+  .menu-open {
+    width: 40px;
+    height: 40px;
+    right: 15px !important;
+    top: 25px !important;
+  }
+  .menu-area .menu-close {
+    width: 20px;
+    height: 20px;
+    margin-left: 50px;
+    margin-top: -50px;
+  }
+  .menu-area ul li a.is-active:after {
+    background: #ffffff;
+    width: 40px;
+    height: 2px;
+  }
+  .menu-area ul li a:hover:after {
+    background: #ffffff;
+    width: 40px;
+    height: 2px;
+    /* bottom: 5px; */
+  }
+  .menu-area ul li {
+    line-height: 50px;
+  }
+  .menu-area ul li a {
+    font-size: 16px !important;
+    letter-spacing: 8px;
+    text-indent: -8px;
+    font-weight: 300;
+  }
+  /* line drawing animation -----*/
+  .line-pattern-1 {
+    left: 25%;
+  }
+  .line-pattern-2 {
+    left: 50%;
+  }
+  .line-pattern-3 {
+    left: 75%;
+  }
+  .line-pattern-4, .line-pattern-5, .line-pattern-6 {
+    display: none;
+  }
+  /* typing text animation -----*/
+  .text-container .text h3 {
+    text-transform: uppercase;
+    font-size: 16px !important;
+    letter-spacing: 7px !important;
+    text-indent: 0;
+  }
+  h2.typing-text {
+    text-transform: uppercase;
+    font-size: 24px !important;
+    font-weight: 500;
+    letter-spacing: 7px !important;
+    text-indent: 0px !important;
+  }
+  .hire-me {
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    bottom: 0;
+    margin-left: 0px;
+    position: absolute;
+  }
+  /* content setup  -----*/
+  .content {
+    padding-top: 65px !important;
+    z-index: 0;
+  }
+  .content-row p {
+    font-size: 16px !important;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+  .main-content .img {
+    width: 100%;
+    border: 10px solid #24a599;
+  }
+  .main-content .right-side {
+    margin-top: 50px !important;
+    float: left;
+  }
+  .main-content {
+    padding-top: 30px;
+  }
+  .main-content .content-row:first-child, .main-content .content-row {
+    margin-bottom: 30px;
+  }
+  .main-content h3 {
+    font-size: 24px;
+  }
+  .main-content h4 {
+    font-size: 16px;
+  }
+  .content .title {
+    padding-top: 30px;
+    font-weight: 400 !important;
+  }
+  /* experience  -----*/
+  .experience-carousel-item-inner .link {
+    margin-top: 30px !important;
+  }
+  /* skills  -----*/
+  .single-progressbar .title {
+    font-size: 16px !important;
+    padding-top: 0;
+    font-weight: 400 !important;
+  }
+  .single-progressbar:first-child {
+    margin-top: 40px;
+  }
+  /* education  -----*/
+  .education {
+    margin-top: 50px;
+  }
+  .education ul li {
+    border-left: 1px solid #24a599;
+  }
+  .education ul li .content-area {
+    width: 100% !important;
+    border: none !important;
+    text-align: left !important;
+    padding: 0 !important;
+    padding-bottom: 30px !important;
+  }
+  .education ul li .content-area p {
+    padding-left: 30px;
+  }
+  .education ul li .content-area h4 {
+    padding-left: 30px;
+  }
+  .experience-carousel .slick-list {
+    left: 0% !important;
+  }
+  /* hobbies  -----*/
+  .hobbies {
+    margin-top: 50px;
+  }
+  .hobbies li {
+    float: left;
+    width: 50% !important;
+  }
+  /* software  -----*/
+  .software {
+    margin-top: 50px;
+  }
+  .software li {
+    float: left;
+    width: 50% !important;
+  }
+  /* CV Download  -----*/
+  .cv-small-12 {
+    width: 100%;
+    margin-bottom: 4%;
+  }
+
+  /* works -----*/
+  .work-tabs {
+    margin-top: 30px !important;
+  }
+  .work-tabs button {
+    width: 50% !important;
+    margin: 0 !important;
+    text-align: left;
+    font-size: 16px !important;
+    padding-bottom: 15px;
+  }
+  .element-item {
+    width: 50% !important;
+    height: 270px;
+    display: flex;
+  }
+  /* work detail -----*/
+  .project-list-content {
+    width: 100%;
+    margin-top: 15px !important;
+    float: left;
+  }
+  .project-detail .right-side li {
+    text-align: left;
+  }
+  .work-gallery {
+    margin-top: 15px;
+    float: left;
+    width: 100%;
+  }
+  /* work lightbox -----*/
+  #lightgallery li {
+    width: 100%;
+    max-width: 100%;
+  }
+  #lightgallery img {
+    max-height: 190px;
+  }
+  /* footer -----*/
+  .footer {
+    padding: 0 0 60px 45px;
+    bottom: 30px;
+  }
+  /* socials -----*/
+  .social-profile ul {
+    margin: 0 auto;
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    margin-right: -8px;
+    margin-top: 0;
+  }
+  .social-profile ul li a.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  .social-profile ul li a:hover {
+    -ms-transform: rotate(0deg) scale(1.2);
+    -webkit-transform: rotate(0deg) scale(1.2);
+    transform: rotate(0deg) scale(1.2);
+  }
+  .social-profile {
+    bottom: 80px;
+  }
+}
